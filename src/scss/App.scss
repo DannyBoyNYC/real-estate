@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
-@import "imports/reset";
+@import "imports/variables";
+// @import "imports/reset";
 @import "imports/base";
+@import "imports/nav";
+@import "imports/header";
 @import "imports/layout";
 
 header {
   height: 100vh;
-  // background-color: #000;
 }
 
 h1 {
@@ -15,8 +17,61 @@ h1 {
   margin-bottom: 3rem;
 }
 
+/* header social links */
+header .social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+}
+header .social li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+}
+header .social li a {
+  color: #fff;
+}
+header .social li a:hover {
+  color: #0762f9;
+}
+.social .btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.social .btn i {
+  margin-right: 15px;
+}
+.project-btn {
+  //   background-color: #1abc9c !important;
+  background-color: $red-orange;
+  color: #fff;
+  font-size: 2rem;
+}
+.github-btn {
+  background-color: #34495e !important;
+}
+
+/* scrolldown link */
+header .scrolldown a {
+  position: absolute;
+  background-color: yellow;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -29px;
+  color: #000;
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+}
+header .scrolldown a:hover {
+  background-color: rgb(254, 105, 40);
+}
 .icon-down-circle:before {
   content: "⬇";
-  color: #fff;
+  color: #333;
   font-style: normal;
 }

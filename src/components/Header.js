@@ -4,40 +4,9 @@ import ParticlesBg from "particles-bg";
 import imgOne from "../img/outdoorhouseview.jpg";
 
 function Header() {
-  let config = {
-    num: [4, 7],
-    rps: 0.1,
-    radius: [5, 40],
-    life: [1.5, 3],
-    v: [2, 3],
-    tha: [-40, 40],
-    // body: imgOne, // Whether to render pictures
-    // rotate: [0, 20],
-    alpha: [0.9, 0],
-    scale: [1, 0.1],
-    position: "center", // all or center or {x:1,y:1,width:100,height:100}
-    color: ["random", "#0000ff"],
-    cross: "dead", // cross or bround
-    random: 15, // or null,
-    g: 5, // gravity
-    // f: [2, -1], // force
-    onParticleUpdate: (ctx, particle) => {
-      ctx.beginPath();
-      ctx.rect(
-        particle.p.x,
-        particle.p.y,
-        particle.radius * 2,
-        particle.radius * 2
-      );
-      ctx.fillStyle = particle.color;
-      ctx.fill();
-      ctx.closePath();
-    },
-  };
-
   return (
-    <header id="home">
-      <ParticlesBg color="#dddddd" type="cobweb" bg={true} num="300" />
+    <header>
+      <ParticlesBg color="#555555" type="cobweb" bg={true} num="200" />
 
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -85,12 +54,11 @@ function Header() {
             <h1
               className="responsive-headline"
               style={{
-                fontFamily: "serif",
                 fontSize: "2.5rem",
                 letterSpacing: "4px",
               }}
             >
-              ITS ALL ABOUT CONNECTIONS
+              ITS ABOUT CONNECTIONS
             </h1>
             <h1
               className="responsive-headline"
@@ -109,8 +77,8 @@ function Header() {
               }}
             >
               Connect on a weekly coaching call from Greg Harrelson or Abe Safa
-              and master the skills and techniques that top agents in the
-              country are using, plus a whole lot more
+              to master the skills and techniques that top agents in the country
+              are using, plus a whole lot more.
             </h3>
           </Fade>
           <hr />
@@ -118,7 +86,7 @@ function Header() {
             <ul className="social">
               <a
                 style={{
-                  backgroundColor: "yellow",
+                  fontWeight: "bold",
                 }}
                 href="https://github.com/nordicgiant2/react-nice-resume"
                 className="button btn project-btn"

@@ -29,15 +29,12 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #0f0f0f;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 30px;
-  color: #838c95;
-
-  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+  color: $dk-gray;
+  -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -91,33 +88,32 @@ h6 {
   font-size: 14px;
   line-height: 30px;
 }
-
 p {
   margin: 0 0 30px 0;
 }
 p img {
   margin: 0;
 }
-p.lead {
-  font: 19px/36px "opensans-light", sans-serif;
-  margin-bottom: 18px;
-}
+// p.lead {
+//   font: 19px/36px "opensans-light", sans-serif;
+//   margin-bottom: 18px;
+// }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
   the body tag due to rendering problems in some browsers */
-em {
-  font-size: 15px;
-  line-height: 30px;
-}
-strong,
-b {
-  font-size: 15px;
-  line-height: 30px;
-}
-small {
-  font-size: 11px;
-  line-height: inherit;
-}
+// em {
+//   font-size: 15px;
+//   line-height: 30px;
+// }
+// strong,
+// b {
+//   font-size: 15px;
+//   line-height: 30px;
+// }
+// small {
+//   font-size: 11px;
+//   line-height: inherit;
+// }
 
 blockquote {
   margin: 30px 0px;
@@ -303,123 +299,123 @@ li p {
       Extend this object into your markup.
   /*
   /* --------------------------------------------------------------------- */
-.stats-tabs {
-  padding: 0;
-  margin: 24px 0;
-}
-.stats-tabs li {
-  display: inline-block;
-  margin: 0 10px 18px 0;
-  padding: 0 10px 0 0;
-  border-right: 1px solid #ccc;
-}
-.stats-tabs li:last-child {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-.stats-tabs li a {
-  display: inline-block;
-  font-size: 22px;
-  border: none;
-  color: #313131;
-}
-.stats-tabs li a:hover {
-  color: #11abb0;
-}
-.stats-tabs li a b {
-  display: block;
-  margin: 6px 0 0 0;
-  font-size: 13px;
-  color: #8b9798;
-}
+// .stats-tabs {
+//   padding: 0;
+//   margin: 24px 0;
+// }
+// .stats-tabs li {
+//   display: inline-block;
+//   margin: 0 10px 18px 0;
+//   padding: 0 10px 0 0;
+//   border-right: 1px solid #ccc;
+// }
+// .stats-tabs li:last-child {
+//   margin: 0;
+//   padding: 0;
+//   border: none;
+// }
+// .stats-tabs li a {
+//   display: inline-block;
+//   font-size: 22px;
+//   border: none;
+//   color: #313131;
+// }
+// .stats-tabs li a:hover {
+//   color: #11abb0;
+// }
+// .stats-tabs li a b {
+//   display: block;
+//   margin: 6px 0 0 0;
+//   font-size: 13px;
+//   color: #8b9798;
+// }
 
 /* definition list */
-dl {
-  margin: 12px 0;
-}
-dt {
-  margin: 0;
-  color: #11abb0;
-}
-dd {
-  margin: 0 0 0 20px;
-}
+// dl {
+//   margin: 12px 0;
+// }
+// dt {
+//   margin: 0;
+//   color: #11abb0;
+// }
+// dd {
+//   margin: 0 0 0 20px;
+// }
 
 /* Lining Definition Style Markup */
-.lining dt,
-.lining dd {
-  display: inline;
-  margin: 0;
-}
-.lining dt + dt:before,
-.lining dd + dt:before {
-  content: "\A";
-  white-space: pre;
-}
-.lining dd + dd:before {
-  content: ", ";
-}
-.lining dd:before {
-  content: ": ";
-  margin-left: -0.2em;
-}
+// .lining dt,
+// .lining dd {
+//   display: inline;
+//   margin: 0;
+// }
+// .lining dt + dt:before,
+// .lining dd + dt:before {
+//   content: "\A";
+//   white-space: pre;
+// }
+// .lining dd + dd:before {
+//   content: ", ";
+// }
+// .lining dd:before {
+//   content: ": ";
+//   margin-left: -0.2em;
+// }
 
 /* Dictionary Definition Style Markup */
-.dictionary-style dt {
-  display: inline;
-  counter-reset: definitions;
-}
-.dictionary-style dt + dt:before {
-  content: ", ";
-  margin-left: -0.2em;
-}
-.dictionary-style dd {
-  display: block;
-  counter-increment: definitions;
-}
-.dictionary-style dd:before {
-  content: counter(definitions, decimal) ". ";
-}
+// .dictionary-style dt {
+//   display: inline;
+//   counter-reset: definitions;
+// }
+// .dictionary-style dt + dt:before {
+//   content: ", ";
+//   margin-left: -0.2em;
+// }
+// .dictionary-style dd {
+//   display: block;
+//   counter-increment: definitions;
+// }
+// .dictionary-style dd:before {
+//   content: counter(definitions, decimal) ". ";
+// }
 
 /* Pagination */
-.pagination {
-  margin: 36px auto;
-  text-align: center;
-}
-.pagination ul li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-.pagination .page-numbers {
-  display: inline-block;
-  padding: 6px 10px;
-  margin-right: 3px;
-  margin-bottom: 6px;
-  color: #6e757c;
-  background-color: #e6e8eb;
-  transition: all 200ms ease-in-out;
+// .pagination {
+//   margin: 36px auto;
+//   text-align: center;
+// }
+// .pagination ul li {
+//   display: inline-block;
+//   margin: 0;
+//   padding: 0;
+// }
+// .pagination .page-numbers {
+//   display: inline-block;
+//   padding: 6px 10px;
+//   margin-right: 3px;
+//   margin-bottom: 6px;
+//   color: #6e757c;
+//   background-color: #e6e8eb;
+//   transition: all 200ms ease-in-out;
 
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -khtml-border-radius: 0px;
-  border-radius: 0px;
-}
-.pagination .page-numbers:hover {
-  background: #838a91;
-  color: #fff;
-}
-.pagination .current,
-.pagination .current:hover {
-  background-color: #11abb0;
-  color: #fff;
-}
-.pagination .inactive,
-.pagination .inactive:hover {
-  background-color: #e6e8eb;
-  color: #a9adb2;
-}
+//   -moz-border-radius: 0px;
+//   -webkit-border-radius: 0px;
+//   -khtml-border-radius: 0px;
+//   border-radius: 0px;
+// }
+// .pagination .page-numbers:hover {
+//   background: #838a91;
+//   color: #fff;
+// }
+// .pagination .current,
+// .pagination .current:hover {
+//   background-color: #11abb0;
+//   color: #fff;
+// }
+// .pagination .inactive,
+// .pagination .inactive:hover {
+//   background-color: #e6e8eb;
+//   color: #a9adb2;
+// }
 
 /*  5. Images  --------------------------------------------------------- */
 
@@ -488,11 +484,11 @@ input[type="button"].full-width {
 }
 
 /* Fix for odd Mozilla border & padding issues */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
+// button::-moz-focus-inner,
+// input::-moz-focus-inner {
+//   border: 0;
+//   padding: 0;
+// }
 
 /*  7. Forms  --------------------------------------------------------- */
 

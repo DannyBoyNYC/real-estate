@@ -1,20 +1,19 @@
 /*
-a. Web fonts and Icon fonts
-b. Reset
-c. Default Styles
+Default Styles
    1. Basic
    2. Typography
    3. Links
    4. Images
    5. Buttons
    6. Forms
-d. Grid
-e. Others
+Grid
+Other
    1. Clearing
    2. Misc
 
 =====================================================================  */
-
+/*  1. Basic
+  --------------------------------------------------------------------- */
 *,
 *:before,
 *:after {
@@ -24,8 +23,9 @@ e. Others
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 100%;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -48,9 +48,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #313131;
+  color: #fff;
   font-weight: normal;
 }
+
 h1 a,
 h2 a,
 h3 a,
@@ -59,6 +60,7 @@ h5 a,
 h6 a {
   font-weight: inherit;
 }
+
 h1 {
   font-size: 38px;
   line-height: 42px;
@@ -89,15 +91,13 @@ h6 {
   line-height: 30px;
 }
 p {
+  font-size: 1.25rem;
+  line-height: 1.5;
   margin: 0 0 30px 0;
 }
 p img {
   margin: 0;
 }
-// p.lead {
-//   font: 19px/36px "opensans-light", sans-serif;
-//   margin-bottom: 18px;
-// }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
   the body tag due to rendering problems in some browsers */
@@ -192,35 +192,35 @@ blockquote cite a:visited {
 }
 
 /* Abbreviations */
-abbr {
-  font-variant: small-caps;
-  text-transform: lowercase;
-  letter-spacing: 0.5px;
-  color: gray;
-}
-abbr:hover {
-  cursor: help;
-}
+// abbr {
+//   font-variant: small-caps;
+//   text-transform: lowercase;
+//   letter-spacing: 0.5px;
+//   color: gray;
+// }
+// abbr:hover {
+//   cursor: help;
+// }
 
 /* drop cap */
-.drop-cap:first-letter {
-  float: left;
-  margin: 0;
-  padding: 14px 6px 0 0;
-  font-size: 84px;
-  line-height: 60px;
-  text-indent: 0;
-  background: transparent;
-  color: inherit;
-}
+// .drop-cap:first-letter {
+//   float: left;
+//   margin: 0;
+//   padding: 14px 6px 0 0;
+//   font-size: 84px;
+//   line-height: 60px;
+//   text-indent: 0;
+//   background: transparent;
+//   color: inherit;
+// }
 
-hr {
-  border: solid #e3e3e3;
-  border-width: 1px 0 0;
-  clear: both;
-  margin: 11px 0 30px;
-  height: 0;
-}
+// hr {
+//   border: solid #e3e3e3;
+//   border-width: 1px 0 0;
+//   clear: both;
+//   margin: 11px 0 30px;
+//   height: 0;
+// }
 
 /*  3. Links  ------------------------------------------------------- */
 

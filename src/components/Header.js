@@ -1,11 +1,11 @@
-import Fade from "react-reveal";
+import Fade from "react-reveal/Fade";
 import ParticlesBg from "particles-bg";
-
-import imgOne from "../img/outdoorhouseview.jpg";
+import Bounce from "react-reveal/Bounce";
+// import imgOne from "../img/outdoorhouseview.jpg";
 
 function Header() {
   return (
-    <header>
+    <header id="home">
       <ParticlesBg color="#555555" type="cobweb" bg={true} num="200" />
 
       <nav id="nav-wrap">
@@ -15,90 +15,54 @@ function Header() {
         <a className="mobile-btn" href="#home" title="Hide navigation">
           Hide navigation
         </a>
-
         <ul id="nav" className="nav">
           <li className="current">
-            <a className="smoothscroll" href="#home">
-              Home
-            </a>
+            <a href="#home">Home</a>
           </li>
-
           <li>
-            <a className="smoothscroll" href="#about">
-              About
-            </a>
+            <a href="#section">About</a>
           </li>
-
           <li>
-            <a className="smoothscroll" href="#portfolio">
-              Why It Works
-            </a>
+            <a href="#portfolio">Why It Works</a>
           </li>
-
           <li>
-            <a className="smoothscroll" href="#resume">
-              Subscriber Login
-            </a>
+            <a href="#resume">Subscriber Login</a>
           </li>
-
           <li>
-            <a className="smoothscroll" href="#contact">
-              Contact Us
-            </a>
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
       </nav>
+
       <div className="row banner">
         <div className="banner-text">
-          <Fade bottom>
-            <h1
-              className="responsive-headline"
-              style={{
-                fontSize: "2.5rem",
-                letterSpacing: "4px",
-              }}
-            >
-              ITS ABOUT CONNECTIONS
-            </h1>
-            <h1
-              className="responsive-headline"
-              style={{
-                color: "yellow",
-              }}
-            >
-              Agent Success Academy
-            </h1>
+          <Bounce>
+            <h2>It's All About Connections</h2>
+          </Bounce>
+
+          <Fade bottom duration={2000}>
+            <h1>Agent Success Academy</h1>
           </Fade>
-          <Fade bottom duration={1200}>
-            <h3
-              style={{
-                fontFamily: "serif",
-                fontSize: "2.5rem",
-              }}
-            >
+
+          <Fade bottom duration={3000}>
+            <p>
               Connect on a weekly coaching call from Greg Harrelson or Abe Safa
               to master the skills and techniques that top agents in the country
               are using, plus a whole lot more.
-            </h3>
+            </p>
           </Fade>
-          <hr />
+
           <Fade bottom duration={2000}>
-            <ul className="social">
-              <a
-                style={{
-                  fontWeight: "bold",
-                }}
-                href="https://github.com/nordicgiant2/react-nice-resume"
-                className="button btn project-btn"
-              >
+            <div className="cta">
+              <a href="#section" className="button btn">
                 Subscribe $299 / month
               </a>
-            </ul>
+            </div>
           </Fade>
         </div>
       </div>
-      <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
+      <p className="scroll-down">
+        <a href="#section">
           <i className="icon-down-circle"></i>
         </a>
       </p>

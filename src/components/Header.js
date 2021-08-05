@@ -1,7 +1,5 @@
-import Fade from "react-reveal/Fade";
 import ParticlesBg from "particles-bg";
-import Bounce from "react-reveal/Bounce";
-// import imgOne from "../img/outdoorhouseview.jpg";
+import { Fade, Bounce } from "react-awesome-reveal";
 
 function Header() {
   return (

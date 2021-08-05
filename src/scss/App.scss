@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 @import "imports/variables";
 @import "imports/reset";
@@ -12,6 +15,7 @@
 #section {
   height: 100vh;
   background: #000;
+  position: relative;
   // background-image: url("/img/testimonials-bg.jpg");
   background-image: url("https://res.cloudinary.com/deedee/image/upload/v1628109923/real-estate/testimonials-bg.jpg");
   background-position: 50%;
@@ -22,9 +26,12 @@
   overflow: hidden;
   h2 {
     font-family: "Roboto Slab", serif;
-    color: $dk-red-orange;
+    // color: $dk-red-orange;
     font-size: 2rem;
     font-weight: bold;
+    // position: relative;
+    // transform: rotate(1deg);
+    margin-bottom: 2rem;
   }
   .gallery-container {
     display: flex;
@@ -40,9 +47,6 @@
     margin-right: 2rem;
     margin-top: 3rem;
   }
-  // .gallery-class {
-  //   border-radius: 50%;
-  // }
   .image-gallery-left-nav,
   .image-gallery-right-nav {
     padding: 20px 5px;
@@ -52,17 +56,10 @@
   }
 }
 
-// #section:after {
-//   content: " ";
-//   display: block;
-//   position: absolute;
-//   left: 0;
-//   top: 100vh;
-//   width: 100%;
-//   height: 100%;
-//   opacity: 0.5;
-//   background-image: linear-gradient(to bottom #11111105 #11111105);
-//   background-repeat: no-repeat;
-//   background-position: 50% 0;
-//   background-size: cover;
-// }
+.highlight {
+  background-color: $yellow;
+  padding: 5px;
+  color: black;
+  padding: 6px 12px;
+  font-style: italic;
+}

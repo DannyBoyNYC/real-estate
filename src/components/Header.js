@@ -34,9 +34,9 @@ function Header() {
 
       <div className="row banner">
         <div className="banner-text">
-          <Bounce>
+          <Fade>
             <h2>It's All About Connections</h2>
-          </Bounce>
+          </Fade>
 
           <Fade bottom duration={2000}>
             <h1>Agent Success Academy</h1>
@@ -50,7 +50,7 @@ function Header() {
             </p>
           </Fade>
 
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={4000}>
             <div className="cta">
               <a href="#section" className="button btn">
                 Subscribe $299 / month

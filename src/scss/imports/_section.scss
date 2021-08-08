@@ -1,5 +1,5 @@
 #section {
-  height: 100vh;
+  // height: 100vh;
   background: #000;
   position: relative;
   background-image: url("https://res.cloudinary.com/deedee/image/upload/v1628109923/real-estate/testimonials-bg.jpg");
@@ -83,8 +83,8 @@
 
 .special {
   font-family: "Roboto Slab", serif;
-  font-size: 3.25rem;
-  line-height: 3.75rem;
+  font-size: 2.75rem;
+  line-height: 2.75rem;
   letter-spacing: -1px;
   margin-bottom: 3rem;
   font-style: italic;
@@ -92,4 +92,25 @@
   margin: 0 auto 18px auto;
   text-decoration: underline;
   text-decoration-color: $yellow;
+}
+
+.taken {
+  display: flex;
+  gap: 3rem;
+  ul {
+    padding-left: 1rem;
+    border-left: 3px solid $yellow;
+  }
+}
+
+.coaching {
+  p {
+    padding-left: 2rem;
+    &:before {
+      content: "✔";
+      display: inline-block;
+      padding-right: 0.75rem;
+      color: $yellow;
+    }
+  }
 }

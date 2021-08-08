@@ -9,57 +9,5 @@
 @import "imports/base";
 @import "imports/nav";
 @import "imports/header";
+@import "imports/section";
 @import "imports/layout";
-
-// section test
-#section {
-  height: 100vh;
-  background: #000;
-  position: relative;
-  // background-image: url("/img/testimonials-bg.jpg");
-  background-image: url("https://res.cloudinary.com/deedee/image/upload/v1628109923/real-estate/testimonials-bg.jpg");
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 96px;
-  padding-bottom: 66px;
-  overflow: hidden;
-  h2 {
-    font-family: "Roboto Slab", serif;
-    // color: $dk-red-orange;
-    font-size: 2rem;
-    font-weight: bold;
-    // position: relative;
-    // transform: rotate(1deg);
-    margin-bottom: 2rem;
-  }
-  .gallery-container {
-    display: flex;
-    max-width: 80vw;
-    margin: 0 auto;
-    color: white;
-    padding: 2rem;
-    background-color: #000000bb;
-    border-radius: 8px;
-  }
-  .gallery {
-    min-width: 300px;
-    margin-right: 2rem;
-    margin-top: 3rem;
-  }
-  .image-gallery-left-nav,
-  .image-gallery-right-nav {
-    padding: 20px 5px;
-  }
-  .image-gallery-icon {
-    opacity: 0.25;
-  }
-}
-
-.highlight {
-  background-color: $yellow;
-  padding: 5px;
-  color: black;
-  padding: 6px 12px;
-  font-style: italic;
-}

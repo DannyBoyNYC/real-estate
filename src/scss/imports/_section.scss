@@ -1,0 +1,95 @@
+#section {
+  height: 100vh;
+  background: #000;
+  position: relative;
+  background-image: url("https://res.cloudinary.com/deedee/image/upload/v1628109923/real-estate/testimonials-bg.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  h2 {
+    font-family: "Roboto Slab", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  .gallery {
+    max-width: 340px;
+    min-width: 340px;
+    margin-right: 2rem;
+  }
+  .slick-track div > figure {
+    position: relative;
+    img {
+      width: 100%;
+      object-fit: fill;
+    }
+    figcaption {
+      position: absolute;
+      bottom: 1.5rem;
+      left: 0.75rem;
+      font-weight: bold;
+      font-style: normal;
+      transform: skewX(-12deg);
+      transform: skewY(-2deg);
+      box-shadow: rgba(0, 0, 0, 0.5) 14px 14px 28px;
+    }
+  }
+}
+
+.highlight-inline {
+  color: #ffc600;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: $yellow;
+  padding: 5px;
+  color: black;
+  padding: 6px 12px;
+  display: inline-block;
+  transform: skewX(-12deg);
+}
+
+.gallery-container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.card-container {
+  max-width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.card {
+  flex: 0 1 32%;
+  display: flex;
+  color: white;
+  padding: 2rem;
+  background-color: #000000bb;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.special {
+  font-family: "Roboto Slab", serif;
+  font-size: 3.25rem;
+  line-height: 3.75rem;
+  letter-spacing: -1px;
+  margin-bottom: 3rem;
+  font-style: italic;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  text-decoration: underline;
+  text-decoration-color: $yellow;
+}

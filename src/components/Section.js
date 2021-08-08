@@ -11,7 +11,7 @@ function Section() {
 
         <div>
           <h2>
-            <span className="highlight">Become A Listing Machine</span>
+            <span className="highlight">Become a Listing Machine</span>
           </h2>
           <p>
             Follow in the steps of the top listing agents in the country. Our
@@ -25,24 +25,24 @@ function Section() {
           <div className="taken">
             <ul>
               <li>
-                <p>Joel Barber 280 Listings Taken</p>
+                <p>Joel Barber - 280 listings taken</p>
               </li>
               <li>
-                <p>Kevin Mills 280 Listings Taken</p>
+                <p>Kevin Mills - 280 listings taken</p>
               </li>
               <li>
-                <p>Brendon Payne 155 Listings Taken</p>
+                <p>Brendon Payne - 155 listings taken</p>
               </li>
             </ul>
             <ul>
               <li>
-                <p>Abe Safa 145 Listings Taken</p>
+                <p>Abe Safa - 145 listings taken</p>
               </li>
               <li>
-                <p>Greg Harrelson 170 Listings Taken</p>
+                <p>Greg Harrelson - 170 listings taken</p>
               </li>
               <li>
-                <p>Hunter Baiden 100 Listings Taken</p>
+                <p>Hunter Baiden - 100 listings taken</p>
               </li>
             </ul>
           </div>
@@ -53,7 +53,7 @@ function Section() {
           </p>
         </div>
       </div>
-      <h3 className="special gallery-container">What you get</h3>
+      <h3 className="special gallery-container">Here's what you get</h3>
       <div className="card-container">
         <Card>
           <div className="column">
@@ -111,7 +111,7 @@ function Section() {
         <Card>
           <div className="column">
             <h2>
-              <span className="highlight">Beyond The Coaching</span>
+              <span className="highlight">Beyond the Coaching</span>
             </h2>
             <p>
               <span className="highlight-inline">Archived</span> coaching

@@ -1,5 +1,5 @@
 import ParticlesBg from "particles-bg";
-import { Fade, Bounce } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function Header() {
   return (

@@ -144,14 +144,12 @@ function Section() {
         <ul>
           <li>
             <p>
-              Master the listing presentation and how to handle any Buyer or
-              Seller objection
+              Master the listing presentation and increase your appointment to
+              listing taken ratio
             </p>
           </li>
           <li>
-            <p>
-              Master the pricing conversation and effective price reductions
-            </p>
+            <p>Master the pricing conversation to take well priced listings</p>
           </li>
           <li>
             <p>
@@ -160,10 +158,14 @@ function Section() {
             </p>
           </li>
           <li>
-            <p>Network and find role play partners</p>
+            <p>
+              Join a top producer network and find committed role play partners
+            </p>
           </li>
           <li>
-            <p>Build referral relationships with agents across the country</p>
+            <p>
+              Turn your database to a databank - time to have sellers call you
+            </p>
           </li>
           <li>
             <p>
@@ -173,15 +175,12 @@ function Section() {
           </li>
           <li>
             <p>
-              Learn and Master the conversations that will help you make deep
-              connections with Sellers and Buyers improving your closing skills
+              Learn the dialogues that create deeper connections and higher
+              conversions
             </p>
           </li>
           <li>
-            <p>
-              Learn about the best technologies in the industry and how to use
-              them for maximum efficiency and results
-            </p>
+            <p>Learn what tech to leverage and how to turn tech into revenue</p>
           </li>
           <li>
             <p>
@@ -190,8 +189,8 @@ function Section() {
           </li>
           <li>
             <p>
-              Learn how to take lots of listings from the Elite Listing Masters
-              in the country
+              Learn how to take more listings each month - learn the strategies
+              of the elite listers in the country
             </p>
           </li>
         </ul>

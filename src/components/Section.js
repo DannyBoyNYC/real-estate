@@ -1,5 +1,6 @@
 import Carousel from "./Carousel";
 import Card from "./Card";
+import { Fade } from "react-awesome-reveal";
 
 function Section() {
   return (
@@ -55,146 +56,158 @@ function Section() {
       </div>
       <h3 className="special gallery-container">Here's what you get</h3>
       <div className="card-container">
-        <Card>
-          <div className="column">
-            <h2>
-              <span className="highlight">Personal Coaching Communication</span>
-            </h2>
-            <p>
-              <span className="highlight-inline">Coaching on demand</span>{" "}
-              &mdash; access to Greg and Abe via text or email.{" "}
-              <em>Ask a question and get an answer within 24 hours.</em>
-            </p>
-            <p>
-              <span className="highlight-inline">Weekly</span> live group
-              coaching call.
-            </p>
-            <p>
-              <span className="highlight-inline">Daily</span> text pep talk or
-              tip.
-            </p>
-            <p>
-              <span className="highlight-inline">Quarterly</span> business
-              planning call along with a step by step business plan.
-            </p>
-          </div>
-        </Card>
-        <Card>
-          <div className="column">
-            <h2>
-              <span className="highlight">Powerful Tools and Automation</span>
-            </h2>
-            <p>
-              <span className="highlight-inline">
-                Quarterly business planning call
-              </span>{" "}
-              along with a step by step business plan.
-            </p>
-            <p>
-              <span className="highlight-inline">Powerful scripts</span> that we
-              use and that work.
-            </p>
-            <p>
-              <span className="highlight-inline">Prospecting</span> numbers
-              analyzer.
-            </p>
-            <p>
-              <span className="highlight-inline">Quarterly Seller</span>{" "}
-              automation campaigns to get listings.
-            </p>
-            <p>
-              <span className="highlight-inline">Quarterly Buyer</span>{" "}
-              automation campaigns to re-engage Buyer leads.
-            </p>
-          </div>
-        </Card>
-        <Card>
-          <div className="column">
-            <h2>
-              <span className="highlight">Beyond the Coaching</span>
-            </h2>
-            <p>
-              <span className="highlight-inline">Archived</span> coaching
-              library.
-            </p>
-            <p>
-              <span className="highlight-inline">Monday</span> morning
-              motivation video.{" "}
-            </p>
-            <p>
-              <span className="highlight-inline">Get copies</span> of social
-              media ads as we run them and archived ones.
-            </p>
-            <p>
-              <span className="highlight-inline">Day to day</span> action steps
-              that deliver results.
-            </p>
-          </div>
-        </Card>
+        <Fade bottom duration={2000}>
+          <Card>
+            <div className="column">
+              <h2>
+                <span className="highlight">
+                  Personal Coaching Communication
+                </span>
+              </h2>
+              <p>
+                <span className="highlight-inline">Coaching on demand</span>{" "}
+                &mdash; access to Greg and Abe via text or email.{" "}
+                <em>Ask a question and get an answer within 24 hours.</em>
+              </p>
+              <p>
+                <span className="highlight-inline">Weekly</span> live group
+                coaching call.
+              </p>
+              <p>
+                <span className="highlight-inline">Daily</span> text pep talk or
+                tip.
+              </p>
+              <p>
+                <span className="highlight-inline">
+                  Quarterly business planning call
+                </span>{" "}
+                along with a step by step business plan.
+              </p>
+            </div>
+          </Card>
+        </Fade>
+        <Fade bottom duration={2000}>
+          <Card>
+            <div className="column">
+              <h2>
+                <span className="highlight">Powerful Tools and Automation</span>
+              </h2>
+
+              <p>
+                <span className="highlight-inline">Powerful scripts</span> that
+                we use and that work.
+              </p>
+              <p>
+                <span className="highlight-inline">Prospecting</span> numbers
+                analyzer.
+              </p>
+              <p>
+                <span className="highlight-inline">Quarterly Seller</span>{" "}
+                automation campaigns to get listings.
+              </p>
+              <p>
+                <span className="highlight-inline">Quarterly Buyer</span>{" "}
+                automation campaigns to re-engage Buyer leads.
+              </p>
+            </div>
+          </Card>
+        </Fade>
+        <Fade bottom duration={2000}>
+          <Card>
+            <div className="column">
+              <h2>
+                <span className="highlight">Beyond the Coaching</span>
+              </h2>
+              <p>
+                <span className="highlight-inline">Archived</span> coaching
+                library.
+              </p>
+              <p>
+                <span className="highlight-inline">Monday</span> morning
+                motivation video.{" "}
+              </p>
+              <p>
+                <span className="highlight-inline">Get copies</span> of social
+                media ads as we run them - as well as archived ones.
+              </p>
+              <p>
+                <span className="highlight-inline">Day to day</span> action
+                steps that deliver results.
+              </p>
+            </div>
+          </Card>
+        </Fade>
       </div>
       <h3 className="special gallery-container">
         Next level training for next level agents
       </h3>
-      <div className="card coaching column gallery-container ">
-        <h2>
-          <span className="highlight">
-            Coaching that works from Coaches who still work!
-          </span>
-        </h2>
-        <ul>
-          <li>
-            <p>
-              Master the listing presentation and increase your appointment to
-              listing taken ratio
-            </p>
-          </li>
-          <li>
-            <p>Master the pricing conversation to take well priced listings</p>
-          </li>
-          <li>
+      <Fade bottom duration={2000}>
+        <div className="card coaching column gallery-container ">
+          <h2>
+            <span className="highlight">
+              Coaching that works from Coaches who still work!
+            </span>
+          </h2>
+          <ul>
+            <li>
+              <p>
+                Master the listing presentation and increase your appointment to
+                listing taken ratio
+              </p>
+            </li>
+            <li>
+              <p>
+                Master the pricing conversation to take well priced listings
+              </p>
+            </li>
+            {/* <li>
             <p>
               Text length of individual points can be shorter or longer
               depending on your needs
             </p>
-          </li>
-          <li>
-            <p>
-              Join a top producer network and find committed role play partners
-            </p>
-          </li>
-          <li>
-            <p>
-              Turn your database to a databank - time to have sellers call you
-            </p>
-          </li>
-          <li>
-            <p>
-              Learn how to build a Databank that you can tap into for deals at
-              any time
-            </p>
-          </li>
-          <li>
-            <p>
-              Learn the dialogues that create deeper connections and higher
-              conversions
-            </p>
-          </li>
-          <li>
-            <p>Learn what tech to leverage and how to turn tech into revenue</p>
-          </li>
-          <li>
-            <p>
-              Learn how to master your morning and effective time management
-            </p>
-          </li>
-          <li>
-            <p>
-              Learn how to take more listings each month - learn the strategies
-              of the elite listers in the country
-            </p>
-          </li>
-        </ul>
-      </div>
+          </li> */}
+            <li>
+              <p>
+                Join a top producer network and find committed role play
+                partners
+              </p>
+            </li>
+            <li>
+              <p>
+                Turn your database to a databank - time to have sellers call you
+              </p>
+            </li>
+            <li>
+              <p>
+                Learn how to build a Databank that you can tap into for deals at
+                any time
+              </p>
+            </li>
+            <li>
+              <p>
+                Learn the dialogues that create deeper connections and higher
+                conversions
+              </p>
+            </li>
+            <li>
+              <p>
+                Know the best tech to leverage and how to turn tech into revenue
+              </p>
+            </li>
+            <li>
+              <p>
+                Learn how to master your morning and effective time management
+              </p>
+            </li>
+            <li>
+              <p>
+                Learn how to take more listings each month by leveraging the
+                strategies of the country's elite listers
+              </p>
+            </li>
+          </ul>
+        </div>
+      </Fade>
     </section>
   );
 }

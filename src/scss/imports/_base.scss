@@ -23,9 +23,20 @@ Other
 }
 
 html {
-  font-size: 100%;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+}
+
+@media screen and (min-width: $small) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: $large) {
+  html {
+    font-size: 16px;
+  }
 }
 
 body {

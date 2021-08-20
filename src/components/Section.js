@@ -3,6 +3,8 @@ import Card from "./Card";
 import Quote from "./Quote";
 import { Fade } from "react-awesome-reveal";
 
+import logo from "../img/Ress-logo-white.svg";
+
 function Section() {
   return (
     <section id="about">
@@ -332,6 +334,9 @@ function Section() {
           </blockquote>
         </div>
       </Quote>
+      <div style={{ width: "300px", margin: "4rem auto" }}>
+        <img src={logo} alt="Real Estate Sales Solutions logo" />
+      </div>
     </section>
   );
 }

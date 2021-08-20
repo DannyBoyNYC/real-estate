@@ -1,5 +1,5 @@
 #about {
-  background: #000;
+  background: $black;
   position: relative;
   background: linear-gradient(
       to bottom,
@@ -44,7 +44,7 @@
 }
 
 .highlight-inline {
-  color: #ffc600;
+  color: $yellow;
   font-style: italic;
   font-weight: bold;
 }
@@ -62,7 +62,7 @@
   max-width: 90vw;
   margin: 0 auto;
   @media screen and (min-width: $large) {
-    max-width: 80vw;
+    max-width: $max-width;
   }
 }
 
@@ -74,7 +74,7 @@
   justify-content: space-between;
   gap: 1.5rem;
   @media screen and (min-width: $large) {
-    max-width: 80vw;
+    max-width: $max-width;
     flex-direction: row;
   }
   > div {

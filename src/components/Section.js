@@ -160,12 +160,6 @@ function Section() {
                 Master the pricing conversation to take well priced listings
               </p>
             </li>
-            {/* <li>
-            <p>
-              Text length of individual points can be shorter or longer
-              depending on your needs
-            </p>
-          </li> */}
             <li>
               <p>
                 Join a top producer network and find committed role play
@@ -204,6 +198,47 @@ function Section() {
                 Learn how to take more listings each month by leveraging the
                 strategies of the country's elite listers
               </p>
+            </li>
+          </ul>
+        </div>
+      </Fade>
+      <h3 className="special gallery-container">Sample Topics</h3>
+      <Fade bottom duration={2000}>
+        <div className="card coaching column gallery-container ">
+          <h2>
+            <span className="highlight">A New Topic Every Week...</span>
+          </h2>
+          <ul>
+            <li>
+              <p>Free Listing Leads - The Referral Sources Of Top Agents</p>
+            </li>
+            <li>
+              <p>
+                Come List Me Calls - How to create The Databank of your Dreams
+              </p>
+            </li>
+            <li>
+              <p>Fantical Follow Up - Stop Losing Opportunities</p>
+            </li>
+            <li>
+              <p>Creating A Predictable and Duplicatable Business</p>
+            </li>
+            <li>
+              <p>
+                Be The Shift In Your Market - How To Grow In a Changing Market
+              </p>
+            </li>
+            <li>
+              <p>Your Daily Blueprint - The Plan Of Champions</p>
+            </li>
+            <li>
+              <p>Winning Listings In A Competitive Market</p>
+            </li>
+            <li>
+              <p>Build Wealth One FSBO At A Time</p>
+            </li>
+            <li>
+              <p>Crush Their Objections - How To Overcome Every Objection</p>
             </li>
           </ul>
         </div>

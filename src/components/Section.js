@@ -1,10 +1,11 @@
 import Carousel from "./Carousel";
 import Card from "./Card";
+import Quote from "./Quote";
 import { Fade } from "react-awesome-reveal";
 
 function Section() {
   return (
-    <section id="section">
+    <section id="about">
       <div className="gallery-container card">
         <div className="gallery">
           <Carousel />
@@ -54,10 +55,11 @@ function Section() {
           </p>
         </div>
       </div>
-      <h3 className="special gallery-container">Here's what you get</h3>
+
+      <h3 className="gallery-container special ">Here's what you get</h3>
       <div className="card-container">
-        <Fade bottom duration={2000}>
-          <Card>
+        <Card>
+          <Fade bottom duration={2000}>
             <div className="column">
               <h2>
                 <span className="highlight">
@@ -84,15 +86,15 @@ function Section() {
                 along with a step by step business plan.
               </p>
             </div>
-          </Card>
-        </Fade>
-        <Fade bottom duration={2000}>
-          <Card>
+          </Fade>
+        </Card>
+
+        <Card>
+          <Fade bottom duration={2000}>
             <div className="column">
               <h2>
                 <span className="highlight">Powerful Tools and Automation</span>
               </h2>
-
               <p>
                 <span className="highlight-inline">Powerful scripts</span> that
                 we use and that work.
@@ -110,10 +112,11 @@ function Section() {
                 automation campaigns to re-engage Buyer leads.
               </p>
             </div>
-          </Card>
-        </Fade>
-        <Fade bottom duration={2000}>
-          <Card>
+          </Fade>
+        </Card>
+
+        <Card>
+          <Fade bottom duration={2000}>
             <div className="column">
               <h2>
                 <span className="highlight">Beyond the Coaching</span>
@@ -135,14 +138,14 @@ function Section() {
                 steps that deliver results.
               </p>
             </div>
-          </Card>
-        </Fade>
+          </Fade>
+        </Card>
       </div>
-      <h3 className="special gallery-container">
+      <h3 className="gallery-container special ">
         Next level training for next level agents
       </h3>
       <Fade bottom duration={2000}>
-        <div className="card coaching column gallery-container ">
+        <div className="gallery-container card coaching column">
           <h2>
             <span className="highlight">
               Coaching that works from Coaches who still work!
@@ -243,6 +246,92 @@ function Section() {
           </ul>
         </div>
       </Fade>
+
+      <Quote>
+        <h3 className="gallery-container special ">
+          What people are saying about Abe and Greg
+        </h3>
+
+        <div className="gallery-container">
+          <blockquote>
+            <p>
+              <span className="highlight-inline title">
+                Abe Safa out delivered...
+              </span>
+              The moment a colleague, mentioned that Abe, was going to expose
+              his system I immediately signed up...what Abe has been able to
+              create for himself in his career, there's not question why not to
+              learn from him... If you want to be successful, learn from those
+              that have done it before you, this is your opportunity to learn
+              from a top producing agent... Abe out delivered, he exposed his
+              system and approach to building a pipeline and how to structure
+              yourself to follow up... Follow up is the meat of your
+              business...and Abe shows how it is done.
+            </p>
+            <cite>Jose Sosa</cite>
+          </blockquote>
+        </div>
+
+        <div className="gallery-container">
+          <blockquote>
+            <p>
+              <span className="highlight-inline title">
+                Everyone should take this course on day 1
+              </span>
+              This course is phenomenal. I wish I could have done it on day 1
+              when I got into the business. I'm so thankful for abe safa making
+              this course because he had solutions for everything I was running
+              into. I can't wait to do an updated review once I start converting
+              using his process
+            </p>
+            <cite>Mark Barrett</cite>
+          </blockquote>
+        </div>
+
+        <div className="gallery-container">
+          <blockquote>
+            <p>
+              <span className="highlight-inline title">
+                Fanatical Follow Up!
+              </span>
+              This Course is worth every penny! So much Value packed in this
+              core it’s unreal.
+            </p>
+            <cite>Darryl Dunn</cite>
+          </blockquote>
+        </div>
+
+        <div className="gallery-container">
+          <blockquote>
+            <p>
+              <span className="highlight-inline title">
+                A simple system that works!
+              </span>
+              I highly recommend you check out this course! I have learned the
+              simple follow up system of a TOP PRODUCER. I have gained insight
+              that would normally take years to learn. I am going back again and
+              again as there is so much GOLD to be learned in this FOLLOW UP
+              Course. 11/10.
+            </p>
+            <cite>Jim Recinos</cite>
+          </blockquote>
+        </div>
+
+        <div className="gallery-container">
+          <blockquote>
+            <p>
+              <span className="highlight-inline title">The Kickoff</span>
+              The kick off has been a great help in keeping me motivated and
+              accountable to keep my business moving forward. It was the perfect
+              continuation from the Redzone. Dec I was top sales agent in my
+              office, Jan. I was top producing agent in my office, and in Feb. I
+              was top listing agent in my office. I know Greg's course played a
+              larger roll!
+            </p>
+            <cite>Tom Tussing</cite>
+          </blockquote>
+        </div>
+      </Quote>
     </section>
   );
 }

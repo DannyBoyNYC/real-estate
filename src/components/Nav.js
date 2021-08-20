@@ -1,13 +1,13 @@
 export default function Nav() {
   return (
-    <nav id="nav-wrap">
+    <nav>
       <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
         Show navigation
       </a>
-      <a className="mobile-btn" href="#home" title="Hide navigation">
+      <a className="mobile-btn close" href="#home" title="Hide navigation">
         Hide navigation
       </a>
-      <ul id="nav" className="nav">
+      <ul>
         <li className="current">
           <a href="#home">Home</a>
         </li>
@@ -15,13 +15,10 @@ export default function Nav() {
           <a href="#section">About</a>
         </li>
         <li>
-          <a href="#portfolio">Why It Works</a>
+          <a href="#subscribe">Subscribe</a>
         </li>
         <li>
-          <a href="#resume">Subscriber Login</a>
-        </li>
-        <li>
-          <a href="#contact">Contact Us</a>
+          <a href="#login">Login</a>
         </li>
       </ul>
     </nav>

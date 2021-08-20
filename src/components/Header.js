@@ -51,7 +51,7 @@ function Header() {
         </div>
       </div>
       <p className="scroll-down">
-        <a href="#section">
+        <a href="#about">
           <i className="icon-down-circle"></i>
         </a>
       </p>

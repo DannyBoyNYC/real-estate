@@ -62,7 +62,7 @@ function Section() {
       <div className="card-container">
         <Card>
           <Fade bottom duration={2000}>
-            <div className="column">
+            <div>
               <h2>
                 <span className="highlight">
                   Personal Coaching Communication
@@ -93,7 +93,7 @@ function Section() {
 
         <Card>
           <Fade bottom duration={2000}>
-            <div className="column">
+            <div>
               <h2>
                 <span className="highlight">Powerful Tools and Automation</span>
               </h2>
@@ -119,7 +119,7 @@ function Section() {
 
         <Card>
           <Fade bottom duration={2000}>
-            <div className="column">
+            <div>
               <h2>
                 <span className="highlight">Beyond the Coaching</span>
               </h2>

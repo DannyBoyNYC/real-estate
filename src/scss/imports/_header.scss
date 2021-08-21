@@ -37,21 +37,26 @@ header {
       line-height: 1.5;
       color: #ddd;
       margin: 0 auto;
-      width: 70%;
+      width: 90%;
       max-width: 840px;
+      @media screen and (min-width: $large) {
+        width: 70%;
+      }
     }
     .cta {
       margin: 24px 0;
       padding: 0;
       a {
-        color: $black;
-        font-size: 2rem;
+        color: #fff;
         font-weight: bold;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         background-color: $dk-red-orange;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         border-radius: 6px;
+        @media screen and (min-width: $large) {
+          font-size: 1.25rem;
+        }
       }
     }
   }

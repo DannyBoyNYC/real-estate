@@ -1,11 +1,19 @@
 import ParticlesBg from "particles-bg";
 import { Fade } from "react-awesome-reveal";
+import { useMediaQuery } from "react-responsive";
 import Nav from "./Nav";
 
 function Header() {
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+
   return (
     <header id="home">
-      <ParticlesBg color="#555555" type="cobweb" bg={true} num="200" />
+      <ParticlesBg
+        color="#555555"
+        type="cobweb"
+        bg={true}
+        num={isTabletOrMobile ? "50" : "200"}
+      />
 
       <Nav />
 

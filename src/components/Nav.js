@@ -15,10 +15,14 @@ export default function Nav() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#subscribe">Subscribe</a>
+          <a href="https://learningcenter.realestatesalessolutions.com/users/checkout/auth">
+            Subscribe
+          </a>
         </li>
         <li>
-          <a href="#login">Login</a>
+          <a href="https://learningcenter.realestatesalessolutions.com/users/sign_in">
+            Login
+          </a>
         </li>
       </ul>
     </nav>

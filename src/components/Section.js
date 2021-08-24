@@ -1,6 +1,7 @@
 import Carousel from "./Carousel";
 import Card from "./Card";
 import Quote from "./Quote";
+import Video from "./Video";
 import { Fade } from "react-awesome-reveal";
 
 import logo from "../img/Ress-logo-white.svg";
@@ -248,6 +249,8 @@ function Section() {
           </ul>
         </div>
       </Fade>
+
+      <Video />
 
       <Quote>
         <h3 className="gallery-container special ">

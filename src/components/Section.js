@@ -337,6 +337,19 @@ function Section() {
           </blockquote>
         </div>
       </Quote>
+
+      <div
+        className="cta"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <a
+          href="https://learningcenter.realestatesalessolutions.com/users/checkout/auth"
+          className="button btn"
+        >
+          Subscribe $299 / month
+        </a>
+      </div>
+
       <div style={{ width: "300px", margin: "4rem auto" }}>
         <img src={logo} alt="Real Estate Sales Solutions logo" />
       </div>

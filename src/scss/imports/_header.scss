@@ -43,22 +43,6 @@ header {
         width: 70%;
       }
     }
-    .cta {
-      margin: 24px 0;
-      padding: 0;
-      a {
-        color: #fff;
-        font-weight: bold;
-        padding-left: 20px;
-        padding-right: 20px;
-        background-color: $dk-red-orange;
-        font-size: 1.5rem;
-        border-radius: 6px;
-        @media screen and (min-width: $large) {
-          font-size: 1.25rem;
-        }
-      }
-    }
   }
   .scroll-down a {
     position: absolute;
@@ -96,6 +80,23 @@ header {
       object-fit: cover;
       object-position: right top;
       border-radius: 50%;
+    }
+  }
+}
+
+.cta {
+  margin: 24px 0;
+  padding: 0;
+  a {
+    color: #fff;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $dk-red-orange;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    @media screen and (min-width: $large) {
+      font-size: 1.25rem;
     }
   }
 }

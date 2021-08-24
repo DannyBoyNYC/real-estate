@@ -51,7 +51,10 @@ function Header() {
 
           <Fade bottom duration={4000}>
             <div className="cta">
-              <a href="#about" className="button btn">
+              <a
+                href="https://learningcenter.realestatesalessolutions.com/users/checkout/auth"
+                className="button btn"
+              >
                 Subscribe $299 / month
               </a>
             </div>

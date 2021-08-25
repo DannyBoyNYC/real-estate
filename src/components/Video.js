@@ -3,7 +3,7 @@ export default function Video() {
     <div className="gallery-container">
       <h3 className="gallery-container special">Introduction Video</h3>
       <video
-        class="flex"
+        className="flex"
         width="100%"
         height="100%"
         src="https://res.cloudinary.com/deedee/video/upload/v1629838052/real-estate/asa-sample.mp4"

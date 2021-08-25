@@ -1,5 +1,5 @@
 import ParticlesBg from "particles-bg";
-import { Fade } from "react-awesome-reveal";
+import { Fade, AttentionSeeker } from "react-awesome-reveal";
 import { useMediaQuery } from "react-responsive";
 import Nav from "./Nav";
 
@@ -19,24 +19,18 @@ function Header() {
 
       <div className="row banner">
         <div className="banner-text">
-          <Fade>
+          <AttentionSeeker effect="rubberBand" delay={3000}>
             <h2>It's All About Connections</h2>
-          </Fade>
+          </AttentionSeeker>
 
-          <Fade bottom duration={2000}>
+          <Fade cascade duration={1000} delay={500}>
             <h1>Agent Success Academy</h1>
-          </Fade>
-
-          <Fade bottom duration={3000}>
             <p>
               Connect on a weekly real estate agent coaching call from{" "}
               <strong>Greg Harrelson</strong> or <strong>Abe Safa</strong> to
               master the skills and techniques that top agents in the country
               are using, plus a whole lot more.
             </p>
-          </Fade>
-
-          <Fade bottom duration={4000}>
             <div className="image-container">
               <img
                 src="https://res.cloudinary.com/deedee/image/upload/v1629379717/real-estate/agents/GregHarrelson.jpg"
@@ -47,9 +41,6 @@ function Header() {
                 alt="Abe Safa"
               />
             </div>
-          </Fade>
-
-          <Fade bottom duration={4000}>
             <div className="cta">
               <a
                 href="https://learningcenter.realestatesalessolutions.com/users/checkout/auth"

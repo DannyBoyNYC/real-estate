@@ -61,8 +61,8 @@ function Section() {
 
       <h3 className="gallery-container special ">Here's what you get</h3>
       <div className="card-container">
-        <Card>
-          <Fade bottom duration={2000}>
+        <Fade cascade duration={1000} delay={500}>
+          <Card>
             <div>
               <h2>
                 <span className="highlight">
@@ -89,11 +89,9 @@ function Section() {
                 along with a step by step business plan.
               </p>
             </div>
-          </Fade>
-        </Card>
+          </Card>
 
-        <Card>
-          <Fade bottom duration={2000}>
+          <Card>
             <div>
               <h2>
                 <span className="highlight">Powerful Tools and Automation</span>
@@ -115,11 +113,9 @@ function Section() {
                 automation campaigns to re-engage Buyer leads.
               </p>
             </div>
-          </Fade>
-        </Card>
+          </Card>
 
-        <Card>
-          <Fade bottom duration={2000}>
+          <Card>
             <div>
               <h2>
                 <span className="highlight">Beyond the Coaching</span>
@@ -141,114 +137,110 @@ function Section() {
                 steps that deliver results.
               </p>
             </div>
-          </Fade>
-        </Card>
+          </Card>
+        </Fade>
       </div>
       <h3 className="gallery-container special ">
         Next level training for next level agents
       </h3>
-      <Fade bottom duration={2000}>
-        <div className="gallery-container card coaching column">
-          <h2>
-            <span className="highlight">
-              Coaching that works from Coaches who still work!
-            </span>
-          </h2>
-          <ul>
-            <li>
-              <p>
-                Master the listing presentation and increase your appointment to
-                listing taken ratio
-              </p>
-            </li>
-            <li>
-              <p>
-                Master the pricing conversation to take well priced listings
-              </p>
-            </li>
-            <li>
-              <p>
-                Join a top producer network and find committed role play
-                partners
-              </p>
-            </li>
-            <li>
-              <p>
-                Turn your database to a databank - time to have sellers call you
-              </p>
-            </li>
-            <li>
-              <p>
-                Learn how to build a Databank that you can tap into for deals at
-                any time
-              </p>
-            </li>
-            <li>
-              <p>
-                Learn the dialogues that create deeper connections and higher
-                conversions
-              </p>
-            </li>
-            <li>
-              <p>
-                Know the best tech to leverage and how to turn tech into revenue
-              </p>
-            </li>
-            <li>
-              <p>
-                Learn how to master your morning and effective time management
-              </p>
-            </li>
-            <li>
-              <p>
-                Learn how to take more listings each month by leveraging the
-                strategies of the country's elite listers
-              </p>
-            </li>
-          </ul>
-        </div>
-      </Fade>
+
+      <div className="gallery-container card coaching column">
+        <h2>
+          <span className="highlight">
+            Coaching that works from Coaches who still work!
+          </span>
+        </h2>
+        <ul>
+          <li>
+            <p>
+              Master the listing presentation and increase your appointment to
+              listing taken ratio
+            </p>
+          </li>
+          <li>
+            <p>Master the pricing conversation to take well priced listings</p>
+          </li>
+          <li>
+            <p>
+              Join a top producer network and find committed role play partners
+            </p>
+          </li>
+          <li>
+            <p>
+              Turn your database to a databank - time to have sellers call you
+            </p>
+          </li>
+          <li>
+            <p>
+              Learn how to build a Databank that you can tap into for deals at
+              any time
+            </p>
+          </li>
+          <li>
+            <p>
+              Learn the dialogues that create deeper connections and higher
+              conversions
+            </p>
+          </li>
+          <li>
+            <p>
+              Know the best tech to leverage and how to turn tech into revenue
+            </p>
+          </li>
+          <li>
+            <p>
+              Learn how to master your morning and effective time management
+            </p>
+          </li>
+          <li>
+            <p>
+              Learn how to take more listings each month by leveraging the
+              strategies of the country's elite listers
+            </p>
+          </li>
+        </ul>
+      </div>
+
       <h3 className="special gallery-container">Sample Topics</h3>
-      <Fade bottom duration={2000}>
-        <div className="card coaching column gallery-container ">
-          <h2>
-            <span className="highlight">A New Topic Every Week...</span>
-          </h2>
-          <ul>
-            <li>
-              <p>Free Listing Leads - The Referral Sources Of Top Agents</p>
-            </li>
-            <li>
-              <p>
-                Come List Me Calls - How to create The Databank of your Dreams
-              </p>
-            </li>
-            <li>
-              <p>Fantical Follow Up - Stop Losing Opportunities</p>
-            </li>
-            <li>
-              <p>Creating A Predictable and Duplicatable Business</p>
-            </li>
-            <li>
-              <p>
-                Be The Shift In Your Market - How To Grow In a Changing Market
-              </p>
-            </li>
-            <li>
-              <p>Your Daily Blueprint - The Plan Of Champions</p>
-            </li>
-            <li>
-              <p>Winning Listings In A Competitive Market</p>
-            </li>
-            <li>
-              <p>Build Wealth One FSBO At A Time</p>
-            </li>
-            <li>
-              <p>Crush Their Objections - How To Overcome Every Objection</p>
-            </li>
-          </ul>
-        </div>
-      </Fade>
+
+      <div className="card coaching column gallery-container ">
+        <h2>
+          <span className="highlight">A New Topic Every Week...</span>
+        </h2>
+        <ul>
+          <li>
+            <p>Free Listing Leads - The Referral Sources Of Top Agents</p>
+          </li>
+          <li>
+            <p>
+              Come List Me Calls - How to create The Databank of your Dreams
+            </p>
+          </li>
+          <li>
+            <p>Fantical Follow Up - Stop Losing Opportunities</p>
+          </li>
+          <li>
+            <p>Creating A Predictable and Duplicatable Business</p>
+          </li>
+          <li>
+            <p>
+              Be The Shift In Your Market - How To Grow In a Changing Market
+            </p>
+          </li>
+          <li>
+            <p>Your Daily Blueprint - The Plan Of Champions</p>
+          </li>
+          <li>
+            <p>Winning Listings In A Competitive Market</p>
+          </li>
+          <li>
+            <p>Build Wealth One FSBO At A Time</p>
+          </li>
+          <li>
+            <p>Crush Their Objections - How To Overcome Every Objection</p>
+          </li>
+        </ul>
+      </div>
 
       <Video />
 

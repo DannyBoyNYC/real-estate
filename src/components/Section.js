@@ -343,7 +343,9 @@ function Section() {
       </div>
 
       <div style={{ width: "300px", margin: "4rem auto" }}>
-        <img src={logo} alt="Real Estate Sales Solutions logo" />
+        <a href="https://www.realestatesalessolutions.com/">
+          <img src={logo} alt="Real Estate Sales Solutions logo" />
+        </a>
       </div>
     </section>
   );

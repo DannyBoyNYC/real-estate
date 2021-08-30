@@ -8,7 +8,7 @@ export default function Nav() {
         Hide navigation
       </a>
       <ul>
-        <li className="current">
+        <li>
           <a href="#home">Home</a>
         </li>
         <li>

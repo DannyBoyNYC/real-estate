@@ -43,7 +43,7 @@ function Header() {
             </div>
             <div className="cta">
               <a
-                href="https://learningcenter.realestatesalessolutions.com/users/checkout/auth"
+                href=" https://learningcenter.realestatesalessolutions.com/order?ct=1a5f66ca-bdef-4cf2-9bc4-5742bd78e5ce"
                 className="button btn"
               >
                 Subscribe $299 / month

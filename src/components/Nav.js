@@ -15,7 +15,7 @@ export default function Nav() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="https://learningcenter.realestatesalessolutions.com/users/checkout/auth">
+          <a href=" https://learningcenter.realestatesalessolutions.com/order?ct=1a5f66ca-bdef-4cf2-9bc4-5742bd78e5ce">
             Subscribe
           </a>
         </li>

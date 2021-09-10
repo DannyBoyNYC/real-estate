@@ -22,37 +22,37 @@ class SimpleSlider extends React.Component {
         <figure>
           <img src="img/JoelBarber.jpg" alt="Joel Barber" />
           <figcaption className="highlight">
-            Joel Barber 280 Listings Taken
+            Joel Barber 278 Listings Taken
           </figcaption>
         </figure>
         <figure>
           <img src="img/KevinMills.jpg" alt="Kevin Mills" />
           <figcaption className="highlight">
-            Kevin Mills 280 Listings Taken
+            Kevin Mills 295 Listings Taken
           </figcaption>
         </figure>
         <figure>
           <img src="img/BrendonPayne.jpg" alt="Brendon Payne" />
           <figcaption className="highlight">
-            Brendon Payne 155 Listings Taken
+            Brendon Payne 132 Listings Taken
           </figcaption>
         </figure>
         <figure>
           <img src="img/AbeSafa.jpg" alt="Abe Safa" />
           <figcaption className="highlight">
-            Abe Safa 145 Listings Taken
+            Abe Safa 125 Listings Taken
           </figcaption>
         </figure>
         <figure>
           <img src="img/GregHarrelson.jpg" alt="Greg Harrelson" />
           <figcaption className="highlight">
-            Greg Harrelson 170 Listings Taken
+            Greg Harrelson 176 Listings Taken
           </figcaption>
         </figure>
         <figure>
           <img src="img/HunterBaiden.jpg" alt="Hunter Baiden" />
           <figcaption className="highlight">
-            Hunter Baiden 100 Listings Taken
+            Hunter Baiden 124 Listings Taken
           </figcaption>
         </figure>
       </Slider>

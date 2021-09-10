@@ -17,22 +17,21 @@ header {
       font-family: "Roboto Slab", serif;
       font-size: 4.75rem;
       line-height: 4.75rem;
-      letter-spacing: -2px;
-      margin-bottom: 3rem;
+      letter-spacing: -1px;
       color: $dk-red-orange;
-      letter-spacing: -2px;
       margin: 0 auto;
+      margin-top: 3rem;
     }
     h2 {
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 1.875rem;
       color: #fff;
       font-weight: bold;
       letter-spacing: 4px;
-      margin-bottom: 3rem;
     }
     p {
-      padding-top: 3rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
       font-size: 1.5rem;
       line-height: 1.5;
       color: #ddd;
@@ -40,14 +39,27 @@ header {
       width: 90%;
       max-width: 840px;
       @media screen and (min-width: $large) {
-        width: 70%;
+        // width: 80%;
+        // max-width: 960px;
+      }
+    }
+    @media screen and (max-height: 760px) {
+      h1 {
+        font-size: 4.25rem;
+        margin-top: 0;
+      }
+      p {
+        max-width: 960px;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.4rem;
       }
     }
   }
   .scroll-down a {
     position: absolute;
     background-color: $dk-red-orange;
-    bottom: 30px;
+    bottom: 20px;
     left: calc(50% - 21px);
     color: #ffffffee;
     display: block;
@@ -73,8 +85,10 @@ header {
     display: none;
     @media screen and (min-width: $large) {
       display: inline-block;
-      width: 240px;
-      height: 240px;
+      width: 20vh;
+      height: 20vh;
+      max-width: 240px;
+      max-height: 240px;
       border: 3px solid $yellow;
       margin: 1rem;
       object-fit: cover;

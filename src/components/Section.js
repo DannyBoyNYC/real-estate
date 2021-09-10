@@ -30,24 +30,24 @@ function Section() {
           <div className="taken">
             <ul>
               <li>
-                <p>Joel Barber - 280 listings taken</p>
+                <p>Joel Barber - 278 listings taken</p>
               </li>
               <li>
-                <p>Kevin Mills - 280 listings taken</p>
+                <p>Kevin Mills - 295 listings taken</p>
               </li>
               <li>
-                <p>Brendon Payne - 155 listings taken</p>
+                <p>Brendon Payne - 132 listings taken</p>
               </li>
             </ul>
             <ul>
               <li>
-                <p>Abe Safa - 145 listings taken</p>
+                <p>Abe Safa - 125 listings taken</p>
               </li>
               <li>
-                <p>Greg Harrelson - 170 listings taken</p>
+                <p>Greg Harrelson - 176 listings taken</p>
               </li>
               <li>
-                <p>Hunter Baiden - 100 listings taken</p>
+                <p>Hunter Baiden - 124 listings taken</p>
               </li>
             </ul>
           </div>

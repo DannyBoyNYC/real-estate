@@ -27,7 +27,6 @@ nav {
 nav > a {
   width: 48px;
   height: 48px;
-  // text-align: left;
   background-color: $dk-red-orange;
   position: relative;
   border: none;
@@ -72,7 +71,6 @@ nav > a.mobile-btn {
 nav ul {
   min-height: 48px;
   width: auto;
-  /* center align the menu */
   text-align: center;
   background: #11111199;
 }
@@ -85,7 +83,6 @@ nav ul li {
 
 /* Links */
 nav ul li a {
-  /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
   display: inline-block;
   padding: 8px 13px;
   line-height: 32px;
@@ -93,14 +90,6 @@ nav ul li a {
   text-align: left;
   color: #fff;
   transition: color 0.2s ease-in-out;
-}
-
-// ul li a:active {
-//   background-color: transparent !important;
-// }
-
-nav ul li.current a {
-  // color: $dk-red-orange;
 }
 
 nav ul li a:hover {

@@ -79,8 +79,9 @@
     flex-direction: row;
   }
   > div {
-    flex-grow: 0;
+    // flex-grow: 0;
     flex-basis: 33%;
+    // display: flex;
   }
 }
 

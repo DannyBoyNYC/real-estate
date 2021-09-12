@@ -61,7 +61,7 @@ function Section() {
 
       <h3 className="gallery-container special ">Here's what you get</h3>
       <div className="card-container">
-        <Fade cascade duration={1000} delay={500}>
+        <Fade cascade duration={1000} delay={100} triggerOnce={true}>
           <Card>
             <div>
               <h2>

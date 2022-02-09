@@ -35,11 +35,11 @@ function Section() {
               <li>
                 <p>Brendon Payne - 132 listings taken</p>
               </li>
-            </ul>
-            <ul>
               <li>
                 <p>Abe Safa - 125 listings taken</p>
               </li>
+            </ul>
+            <ul>
               <li>
                 <p>Greg Harrelson - 176 listings taken</p>
               </li>

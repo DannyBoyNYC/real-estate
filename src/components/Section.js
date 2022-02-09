@@ -30,9 +30,6 @@ function Section() {
           <div className="taken">
             <ul>
               <li>
-                <p>Joel Barber - 278 listings taken</p>
-              </li>
-              <li>
                 <p>Kevin Mills - 295 listings taken</p>
               </li>
               <li>

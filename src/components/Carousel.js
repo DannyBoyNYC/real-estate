@@ -20,12 +20,6 @@ class SimpleSlider extends React.Component {
       // <div>
       <Slider {...settings}>
         <figure>
-          <img src="img/JoelBarber.jpg" alt="Joel Barber" />
-          <figcaption className="highlight">
-            Joel Barber 278 Listings Taken
-          </figcaption>
-        </figure>
-        <figure>
           <img src="img/KevinMills.jpg" alt="Kevin Mills" />
           <figcaption className="highlight">
             Kevin Mills 295 Listings Taken
